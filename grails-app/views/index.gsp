@@ -24,7 +24,7 @@
 		<div class="col-md-4">
 			<section class="login-form">
 				<form method="post" action="#" role="login">
-					<img src="http://i.imgur.com/RcmcLv4.png" class="img-responsive" alt="" />
+					<h1 class="display-4 text-center">Welcome</h1>
 					<input type="email" name="email" placeholder="Email" required class="form-control input-lg" value="luis.echegorri@gmail.com" />
 
 					<input type="password" class="form-control input-lg" id="password" placeholder="Password" required="" />

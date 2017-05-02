@@ -8,7 +8,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Boxer - Software Landing Page</title>
+    <title>Luis Echegorri - Software Landing Page</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="">
@@ -24,7 +24,7 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700,800' rel='stylesheet' type='text/css'>
 
     <!-- custom css -->
-    <link rel="stylesheet" href="../css/templatemo-style.css">
+    <link rel="stylesheet" href="../css/LandingPage.css">
 
 </head>
 <body>
@@ -35,6 +35,10 @@
 <!-- end preloader -->
 <!-- start navigation -->
 <nav class="navbar navbar-default navbar-fixed-top templatemo-nav" role="navigation">
+    %{--<a class="pull-right" href="#contact">Log In</a>--}%
+    <button type="button" href="#contact" class="btn btn-default btn-lg pull-right">
+        <span class="glyphicon glyphicon-wrench" aria-hidden="false"></span> Log In
+    </button>
     <div class="container">
         <div class="navbar-header">
             <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -42,14 +46,14 @@
                 <span class="icon icon-bar"></span>
                 <span class="icon icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand">Boxer</a>
+            <a href="#" class="navbar-brand">Luis Echegorri</a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right text-uppercase">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#feature">Features</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#download">Download</a></li>
+                <li><a href="#m3">Mass Mailer Mechanism</a></li>
+                <li><a href="#educational">Educational Web</a></li>
+                <li><a href="#mom">Mobile Override Manager</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -64,8 +68,8 @@
                 <div class="col-md-1"></div>
                 <div class="col-md-10 wow fadeIn" data-wow-delay="0.3s">
                     <h1 class="text-upper">Software Landing Page</h1>
-                    <p class="tm-white">Boxer is a fully Responsive, Clean Design, Modern, and Flexible Software Landing Page for startups, businesses and agencies. It is built with HTML5 &amp; CSS3, Bootstrap 3.3.4, Font Awesome 4.3.0, and much more. Designed by <a rel="nofollow" href="http://www.facebook.com/templatemo" target="_parent">templatemo</a>. Images by <a rel="nofollow" href="http://pixabay.com" target="_blank">Pixabay</a></p>
-                    <img src="../images/software-img.png" class="img-responsive" alt="home img">
+                    <p class="tm-white">This website is designed to showcase my projects.</p>
+                    <img src="../images/degree.jpg" class="img-responsive" alt="home img">
                 </div>
                 <div class="col-md-1"></div>
             </div>
@@ -79,18 +83,18 @@
         <div class="row">
             <div class="col-md-4 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
                 <i class="fa fa-laptop"></i>
-                <h3 class="text-uppercase">RESPONSIVE LAYOUT</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
+                <h3 class="text-uppercase">Java</h3>
+                <p>Java is by far my strongest language</p>
             </div>
             <div class="col-md-4 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
                 <i class="fa fa-twitter"></i>
-                <h3 class="text-uppercase">BOOTSTRAP 3.3.4</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
+                <h3 class="text-uppercase">C++</h3>
+                <p>A close second, C++ is the language I worked on the most at school.</p>
             </div>
             <div class="col-md-4 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
                 <i class="fa fa-font"></i>
-                <h3 class="text-uppercase">GOOGLE FONT</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
+                <h3 class="text-uppercase">Full Stack</h3>
+                <p>My capstone project was built using my web development knowledge</p>
             </div>
         </div>
     </div>
@@ -98,7 +102,7 @@
 <!-- end divider -->
 
 <!-- start feature -->
-<section id="feature">
+<section id="m3">
     <div class="container">
         <div class="row">
             <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
@@ -134,7 +138,7 @@
 <!-- end feature1 -->
 
 <!-- start pricing -->
-<section id="pricing">
+<section id="educational">
     <div class="container">
         <div class="row">
             <div class="col-md-12 wow bounceIn">
@@ -194,7 +198,7 @@
 <!-- end pricing -->
 
 <!-- start download -->
-<section id="download">
+<section id="mom">
     <div class="container">
         <div class="row">
             <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
@@ -255,7 +259,7 @@
 <footer>
     <div class="container">
         <div class="row">
-            <p>Copyright © 2084 Your Company Name</p>
+            <p>Copyright © Luis Echegorri 2017 </p>
         </div>
     </div>
 </footer>

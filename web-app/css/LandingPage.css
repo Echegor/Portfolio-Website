@@ -178,7 +178,7 @@ img
 /* start home */       
 #home
     {
-    background: url('../images/home-bg.jpg') no-repeat;
+    background: url('../images/rutgers.jpg') no-repeat;
     background-size: cover;
     color: #fff;
     margin-top: 70px;
@@ -274,49 +274,49 @@ img
 /* end feature1 */
 
 /* start pricing */
-#pricing
+#educational
     {
         background: #f8f8f8;
         text-align: center;
         padding-top: 80px;
         padding-bottom: 80px;
     }
-#pricing h2
+#educational h2
     {
         padding-bottom: 60px;
     }
-#pricing .pricing
+#educational .pricing
     {
         background: #fff;
     }
-#pricing .active
+#educational .active
     {
         position: relative;
         bottom: 20px;
     }
-#pricing .pricing .pricing-title
+#educational .pricing .pricing-title
     {
         background: #28a7e9;
         color: #fff;
         font-weight: bold;
         padding: 30px;
     }
-#pricing .pricing .pricing-title p
+#educational .pricing .pricing-title p
     {
         font-size: 20px;
     }
-#pricing .pricing ul
+#educational .pricing ul
     {
         padding: 0;
         margin: 0;
     }
-#pricing .pricing ul li
+#educational .pricing ul li
     {
         display: block;
         list-style: none;
         padding: 16px;
     }
-#pricing .pricing .btn
+#educational .pricing .btn
     {
         background: transparent;
         border: 1px solid #28a7e9;
@@ -329,23 +329,23 @@ img
         margin-bottom: 30px;
         transition: all 0.3s ease;
     }
-#pricing .pricing .btn:hover {
+#educational .pricing .btn:hover {
     background: #28a7e9;
     color: #fff;
 }
 /* end pricing */
 
 /* start download */
-#download
+#mom
     {
         padding-top: 80px;
         padding-bottom: 80px;
     }
-#download h2
+#mom h2
     {
         padding-bottom: 20px;
     }
-#download .btn
+#mom .btn
     {
         border-radius: 0px;
         font-weight: bold;
